@@ -91,7 +91,7 @@ def main():
         "klein": frage_ja_nein("Kleinbuchstaben verwenden?"),
         "ziffern": frage_ja_nein("Ziffern verwenden?"),
         "sonderzeichen": frage_ja_nein("Sonderzeichen verwenden?"),
-        "ohne_verwechselbare": frage_ja_nein("Verwechselbare Zeichen (l, I, 1, O, 0) weglassen?", False),
+        "ohne_verwechselbare": frage_ja_nein("Verwechselbare Zeichen (l, I, 1, O, o, 0) weglassen?", False),
     }
 
     try:

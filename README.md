@@ -7,7 +7,7 @@ Ein kleines Python-Programm, das zufällige, sichere Passwörter erzeugt.
 ## Was das Programm macht
 - Länge und Anzahl der Passwörter frei wählbar
 - Groß-/Kleinbuchstaben, Ziffern und Sonderzeichen einzeln an- und abschaltbar
-- optional ohne verwechselbare Zeichen (l, I, 1, O, 0)
+- optional ohne verwechselbare Zeichen (l, I, 1, O, o, 0)
 - mindestens ein Zeichen aus jeder gewählten Gruppe
 - nutzt das Modul `secrets` (kryptografisch sicherer Zufall statt `random`)
 - zeigt die geschätzte Stärke in Bit
