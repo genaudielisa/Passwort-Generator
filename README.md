@@ -2,7 +2,8 @@
 
 Ein kleines Python-Programm, das zufällige, sichere Passwörter erzeugt.
 
-> **Hinweis:** Dieses Projekt habe ich mit Unterstützung von KI (Claude Code) erstellt.
+> **Hinweis:** > **Hinweis:** Dieses Projekt habe ich mit Unterstützung von KI (Claude Code) erstellt.
+
 
 ## Was das Programm macht
 - Länge und Anzahl der Passwörter frei wählbar
