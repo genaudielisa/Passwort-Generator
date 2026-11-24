@@ -2,8 +2,7 @@
 
 Ein kleines Python-Programm, das zufällige, sichere Passwörter erzeugt.
 
-> **Hinweis:** > **Hinweis:** Dieses Projekt habe ich mit Unterstützung von KI (Claude Code) erstellt.
-
+> **Hinweis:** Dieses Projekt habe ich mit Unterstützung von KI (Claude Code) erstellt. Ich habe den Code durchgearbeitet, getestet und kann jeden Teil erklären.
 
 ## Was das Programm macht
 - Länge und Anzahl der Passwörter frei wählbar
@@ -18,6 +17,12 @@ Ein kleines Python-Programm, das zufällige, sichere Passwörter erzeugt.
 ```
 python passwort_generator.py
 ```
+
+## Was ich dabei gelernt habe
+- Warum man für Passwörter `secrets` statt `random` verwendet: `random` ist vorhersagbar, `secrets` ist kryptografisch sicher.
+- Wie man die Stärke eines Passworts in Bit schätzt: Länge × log2(Anzahl möglicher Zeichen).
+- Wie man garantiert, dass aus jeder gewählten Zeichengruppe mindestens ein Zeichen vorkommt, und die Zeichen danach mischt, damit sie nicht immer am Anfang stehen.
+- Wie man Benutzereingaben prüft, damit das Programm bei falschen Eingaben nicht abstürzt.
 
 ## Passt gut dazu
 Mit meinem [Passwort-Prüfer](https://github.com/genaudielisa/Passwort-Pr-fer-) kann man testen, wie sicher ein Passwort ist.
